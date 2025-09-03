@@ -570,3 +570,17 @@
   skips:
     - os:
         - windows-2022
+- notebook: notebooks/glm4.1-v-thinking/glm4.1-v-thinking.ipynb
+  skips:
+    - os:
+        - macos-13
+- notebook: notebooks/ace-step-music-generation/ace-step-music-generation.ipynb
+  skips:
+    - os:
+        - macos-13
+        - ubuntu-22.04
+        - windows-2022
+- notebook: notebooks/flux.1-kontext/flux.1-kontext.ipynb
+  skips:
+    - os:
+        - macos-13
